@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
     }
 
     std::cout << "This file contains " << count 
-        << " words." << std::endl;
+        << " whitespace-separated words." << std::endl;
 
     return 0; 
 }
