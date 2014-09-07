@@ -46,9 +46,8 @@ class BusinessTraveler {
 };
 
 int main() {
-    
     BusinessTraveler bt("Hello");
 
-    return 1; 
+    return 0; 
 }
 

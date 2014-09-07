@@ -4,14 +4,14 @@ int main() {
     int y = 6;
     int *null = (int*) null; 
 
-    // Create uninitialised reference
+    // (1) Create uninitialised reference
     int &a;
 
-    // Change what reference refers to 
+    // (2) Change what reference refers to 
     int &b = x; 
     &b  = &y; 
 
-    // Create a null reference
+    // (3) Create a null reference
     int &c = *null; 
     
     // a and b cause compile time errors

@@ -2,26 +2,25 @@
 #include <string> 
 #include <iostream> 
 
+using namespace std;
 
 int main(int argc, char* argv[]) {
 
     if (argc != 2) {
-        std::cout << "Usage: \n ./a.out filename" 
-            << std::endl; 
+        cout << "Usage: \n ./a.out filename \n"; 
         return 1;
     }
     
-    std::string filename = argv[1];
-    std::ifstream in(filename.c_str());
+    string filename = argv[1];
+    ifstream in(filename.c_str());
 
     int count = 0;
-    std::string word; 
+    string word; 
     while (in >> word) {
          count++;
     }
 
-    std::cout << "This file contains " << count 
-        << " whitespace-separated words." << std::endl;
+    cout << "This file contains " << count << " whitespace-separated words. \n";
 
     return 0; 
 }

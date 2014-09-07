@@ -8,13 +8,12 @@ using namespace std;
 int main(int argc, char* argv[]) {
 
     if (argc != 2) {
-        std::cout << "Usage: \n ./a.out filename" 
-            << std::endl; 
+        cout << "Usage: \n ./a.out filename.\n"; 
         return 1;
     }
 
-    std::string filename = argv[1];
-    std::ifstream in(filename.c_str());
+    string filename = argv[1];
+    ifstream in(filename.c_str());
 
     vector<string> v;
     string line;
@@ -23,7 +22,7 @@ int main(int argc, char* argv[]) {
     }
 
     for(int i = (v.size() - 1); i >= 0; i--) {
-        cout << i << ": " << v[i] << endl;
+        cout << i << ": " << v[i] << "\n";
     }
 
     return 0; 

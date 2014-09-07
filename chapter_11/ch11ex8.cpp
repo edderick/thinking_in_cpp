@@ -10,14 +10,10 @@ int main() {
     char c = 'a';
 
     cout << c << "\n";
-
     f(c); 
-
+    cout << c << "\n";
+    f(c); 
     cout << c << "\n";
 
-    f(c); 
-
-    cout << c << "\n";
-
-    return 1; 
+    return 0; 
 }

@@ -26,7 +26,8 @@ class A {
 
 int main() {
     A a; 
-    cout << (a++).getVal() << " " << a.getVal() << endl; 
+    cout << (a++).getVal() << " " << a.getVal() << "\n"; 
+    cout << (++a).getVal() << " " << a.getVal() << endl; 
 
-    return 1; 
+    return 0; 
 }

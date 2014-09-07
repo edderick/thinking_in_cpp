@@ -16,6 +16,8 @@ class B {
 
 int main() {
 
+    // Although impementations are different, usage is the same
+
     A a; 
     a.f();
     a.f(1);

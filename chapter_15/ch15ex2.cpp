@@ -54,5 +54,5 @@ int main() {
         shapes[i]->draw();
     }
 
-    return 1;
+    return 0;
 }

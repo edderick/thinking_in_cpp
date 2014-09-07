@@ -73,5 +73,5 @@ int main() {
         byReference(*shapes[i]);
     }
 
-    return 1;
+    return 0;
 }

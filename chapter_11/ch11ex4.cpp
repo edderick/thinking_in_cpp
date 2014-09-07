@@ -5,9 +5,8 @@ T& f(T* t) {
 }
 
 int main() {
-
     int x = 5; 
     int &ref = f(&x);
 
-    return 1; 
+    return 0; 
 }

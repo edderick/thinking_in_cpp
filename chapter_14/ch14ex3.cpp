@@ -24,5 +24,5 @@ class Bottom : public Middle {
 int main() {
     Bottom bottom; 
 
-    return 1; 
+    return 0; 
 }

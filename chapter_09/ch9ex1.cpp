@@ -7,5 +7,5 @@ using namespace std;
 
 int main() {
     cout << F(1) << endl; 
-    return 1; 
+    return 0; 
 }
